@@ -1,0 +1,25 @@
+{
+    "produtos": [
+        {
+            "id": "1",
+            "nome": "Mouse HP",
+            "preco": "50.0",
+            "qtd_estoque": "20",
+            "descricao": "BLABLABLABLABLABLABLABLA"
+        },
+        {
+            "id": "2",
+            "nome": "Headphone JBL",
+            "preco": "250.0",
+            "qtd_estoque": "30",
+            "descricao": "BLUBLUBLUBLUBLUBLUBLUBLU"
+        },
+        {
+            "id": "3",
+            "nome": "Capa de Celular Moto G3",
+            "preco": "20.0",
+            "qtd_estoque": "100",
+            "descricao": "BLEBLEBLEBLEBLEBLEBLEBLE"
+        }
+    ]
+}
