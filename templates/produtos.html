@@ -5,8 +5,8 @@
     {%  block title  %}  Lista de Produtos {% endblock %}
 </h1>
 
-<table>
-    <thead>
+<table class="table table-striped">
+        <thead>
         <tr>
             <th>
                 NOME
@@ -20,7 +20,7 @@
         </tr>
     </thead>
     <tbody>
-        {% for produto in produtos %}
+        {% for produto in prods %}
             <tr>
                 <td>
                     {{produto.nome}}
@@ -35,6 +35,6 @@
         {% endfor %}
     </tbody>
 </table>
-
+ <a href="{{url_for('cadastrar_produto_form')}}"> Cadastrar Produto </a>
 
 {% endblock %}
