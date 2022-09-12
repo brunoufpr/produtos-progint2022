@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{%  block conteudo  %}
+<h1>
+    {%  block title  %}  Login da Filial {% endblock %}
+</h1>
+ <form action="/login_action" method="post">
+     <label for="username">nome de usuario:</label>
+    <input type="text"  id="username" name="username"> <br>
+    <label for="senha">senha:</label>
+    <input type="password"  id="senha" name="senha"> <br>
+
+   
+
+    <input type="submit">
+ </form>
+
+
+
+{%  endblock  %}
